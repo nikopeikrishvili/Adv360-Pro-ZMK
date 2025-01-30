@@ -2,13 +2,13 @@ macro_macro_last_name: macro_macro_last_name{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_last_name";
 #binding-cells = <0>;
-bindings = <&kp P>, <&kp E>, <&kp I>, <&kp K>, <&kp R>, <&kp I>, <&kp S>, <&kp H>, <&kp V>, <&kp I>, <&kp L>, <&kp I>;
+bindings = <&kp LS(P)>, <&kp E>, <&kp I>, <&kp K>, <&kp R>, <&kp I>, <&kp S>, <&kp H>, <&kp V>, <&kp I>, <&kp L>, <&kp I>;
 };
 macro_macro_firstname: macro_macro_firstname{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_firstname";
 #binding-cells = <0>;
-bindings = <&kp N>, <&kp I>, <&kp K>, <&kp O>;
+bindings = <&kp LS(N)>, <&kp I>, <&kp K>, <&kp O>;
 };
 macro_macro_mail: macro_macro_mail{
 compatible = "zmk,behavior-macro";
